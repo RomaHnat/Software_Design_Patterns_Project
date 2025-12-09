@@ -1,0 +1,64 @@
+
+categorycontroller::__constructO
+EC:\xampp\htdocs\project\newProject\controllers\CategoryController.php ("1*>
+2
+CategoryController.php"
+	 	(
+implicit return*∆
+1 (7S
+Q
+ (%
+%1"database::getinstance*(
+
+__unknown_file ("
+
+databaseEC
+ (6
+%2*"
+
+__unknown_file (
+
+%12getconnection=
+;
+ (6
+$db"__id*"
+
+__unknown_file (
+
+%275
+ (9
+$categoryRepo"cachedcategoryrepositoryé
+ã
+ (9
+%3"%cachedcategoryrepository::__construct*-
+
+__unknown_file (
+
+$categoryRepo*#
+
+__unknown_file (
+
+$db#!
+! (C
+%4"categoryserviceÑ
+Å
+! (C
+%5"categoryservice::__construct*"
+
+__unknown_file (
+
+%4*-
+
+__unknown_file (
+
+$categoryRepoa
+_
+ (C)
+categorycontroller"
+categoryService"__id*"
+
+__unknown_file (
+
+%4*
+2B
+categorycontrollerH

@@ -1,0 +1,69 @@
+
+categoryrepository::deleteP
+FC:\xampp\htdocs\project\newProject\repositories\CategoryRepository.php@ @("1*>
+2
+CategoryRepository.php"
+E E(
+implicit return*ï
+1A C(
+F
+D
+@ @(
+$id"__id*+
+
+__unknown_file (
+
+$idstringT
+R
+A A(
+%1"__id*:
+
+__unknown_file (*
+categoryrepository"
+dbèå
+A C(	
+%2*"
+
+__unknown_file (
+
+%1*M
+
+__unknown_file (1/
+-DELETE FROM categories WHERE CategoryID = :id2prepare?
+=
+A C(	
+$stmt"__id*"
+
+__unknown_file (
+
+%2
+D D(%
+%3"$Arrayã
+à
+D D(%
+%4"__mapSet*"
+
+__unknown_file (
+
+%3*#
+
+__unknown_file (
+:id*#
+
+__unknown_file (
+
+$idfd
+D D(&
+%5*%
+
+__unknown_file (	
+
+$stmt*"
+
+__unknown_file (
+
+%32execute*
+2:
+@ @(%
+$idstringB
+categoryrepositoryH

@@ -1,0 +1,59 @@
+
+router::post=
+3C:\xampp\htdocs\project\newProject\utils\Router.php
+ 
+("1*2
+2
+
+Router.php"
+ (
+implicit return*ï
+1 (1J
+H
+
+ 
+(
+$path"__id*-
+
+__unknown_file (
+
+$pathstringP
+N
+
+ 
+(
+
+$handler"__id*0
+
+__unknown_file (
+
+$handlerstring¼¹
+ (0
+%1*&
+
+__unknown_file (
+
+router*$
+
+__unknown_file (
+POST*%
+
+__unknown_file (	
+
+$path*(
+
+__unknown_file (
+
+
+$handler2addroute*
+2:
+
+ 
+(%
+$pathstring:
+
+' 
+(6
+$handlerstringB
+
+routerH

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\xampp\htdocs\project\newProject\phpunit.xml" tests="51" assertions="99" errors="7" failures="0" skipped="0" time="30.115816">
+    <testsuite name="Service Tests" tests="33" assertions="73" errors="0" failures="0" skipped="0" time="1.318731">
+      <testsuite name="Tests\Services\CategoryServiceTest" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" tests="13" assertions="29" errors="0" failures="0" skipped="0" time="0.949876">
+        <testcase name="testAddCategoryThrowsExceptionForInvalidIdFormat" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="20" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="2" time="0.811135"/>
+        <testcase name="testAddCategoryThrowsExceptionForInvalidIdWithNumbers" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="33" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="2" time="0.006639"/>
+        <testcase name="testAddCategoryThrowsExceptionForInvalidIdTooLong" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="46" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="2" time="0.007275"/>
+        <testcase name="testAddCategoryThrowsExceptionForDuplicateId" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="60" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="2" time="0.038825"/>
+        <testcase name="testAddToWarehouseIncreasesStock" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="79" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="2" time="0.013890"/>
+        <testcase name="testAddToWarehouseThrowsExceptionForNonExistentCategory" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="100" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="2" time="0.009090"/>
+        <testcase name="testAddToWarehouseThrowsExceptionForNegativeQuantity" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="109" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="2" time="0.007726"/>
+        <testcase name="testAddToWarehouseThrowsExceptionForZeroQuantity" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="119" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="2" time="0.010098"/>
+        <testcase name="testUpdateCategoryWithIdChange" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="130" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="2" time="0.010207"/>
+        <testcase name="testDeleteCategoryThrowsExceptionWhenForeignKeyConstraintViolated" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="167" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="3" time="0.010247"/>
+        <testcase name="testDeleteCategoryThrowsExceptionForNonExistentCategory" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="189" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="2" time="0.009680"/>
+        <testcase name="testValidateCategoryDataReturnsErrorsForEmptyFields" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="198" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="5" time="0.008596"/>
+        <testcase name="testValidateCategoryDataReturnsEmptyArrayForValidData" file="C:\xampp\htdocs\project\newProject\tests\services\CategoryServiceTest.php" line="214" class="Tests\Services\CategoryServiceTest" classname="Tests.Services.CategoryServiceTest" assertions="1" time="0.006470"/>
+      </testsuite>
+      <testsuite name="Tests\Services\CustomerServiceTest" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" tests="12" assertions="24" errors="0" failures="0" skipped="0" time="0.178105">
+        <testcase name="testAddCustomerThrowsExceptionForInvalidEmail" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="20" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="2" time="0.056466"/>
+        <testcase name="testAddCustomerThrowsExceptionForEmailWithoutDomain" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="33" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="2" time="0.009427"/>
+        <testcase name="testAddCustomerThrowsExceptionForEmailWithoutUsername" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="46" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="2" time="0.008502"/>
+        <testcase name="testAddCustomerThrowsExceptionForEmptyFields" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="59" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="2" time="0.008710"/>
+        <testcase name="testAddCustomerThrowsExceptionForDuplicateEmail" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="73" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="2" time="0.010169"/>
+        <testcase name="testAddCustomerSucceedsWithValidData" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="86" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="1" time="0.042462"/>
+        <testcase name="testUpdateCustomerThrowsExceptionForNonExistentCustomer" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="105" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="2" time="0.006988"/>
+        <testcase name="testUpdateCustomerThrowsExceptionWhenChangingToExistingEmail" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="118" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="3" time="0.009429"/>
+        <testcase name="testUpdateCustomerSucceedsWhenKeepingSameEmail" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="141" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="2" time="0.007944"/>
+        <testcase name="testValidateCustomerDataReturnsErrorsForEmptyFields" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="160" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="3" time="0.006904"/>
+        <testcase name="testValidateCustomerDataReturnsErrorForInvalidEmail" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="172" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="2" time="0.006168"/>
+        <testcase name="testValidateCustomerDataReturnsEmptyArrayForValidData" file="C:\xampp\htdocs\project\newProject\tests\services\CustomerServiceTest.php" line="183" class="Tests\Services\CustomerServiceTest" classname="Tests.Services.CustomerServiceTest" assertions="1" time="0.004937"/>
+      </testsuite>
+      <testsuite name="Tests\Services\SaleServiceTest" file="C:\xampp\htdocs\project\newProject\tests\services\SaleServiceTest.php" tests="8" assertions="20" errors="0" failures="0" skipped="0" time="0.190751">
+        <testcase name="testPlaceSaleThrowsExceptionForInsufficientStock" file="C:\xampp\htdocs\project\newProject\tests\services\SaleServiceTest.php" line="34" class="Tests\Services\SaleServiceTest" classname="Tests.Services.SaleServiceTest" assertions="2" time="0.051582"/>
+        <testcase name="testPlaceSaleThrowsExceptionForNonExistentCustomer" file="C:\xampp\htdocs\project\newProject\tests\services\SaleServiceTest.php" line="53" class="Tests\Services\SaleServiceTest" classname="Tests.Services.SaleServiceTest" assertions="2" time="0.007040"/>
+        <testcase name="testPlaceSaleThrowsExceptionForNonExistentCategory" file="C:\xampp\htdocs\project\newProject\tests\services\SaleServiceTest.php" line="64" class="Tests\Services\SaleServiceTest" classname="Tests.Services.SaleServiceTest" assertions="2" time="0.009033"/>
+        <testcase name="testPlaceSaleRollsBackTransactionOnFailure" file="C:\xampp\htdocs\project\newProject\tests\services\SaleServiceTest.php" line="80" class="Tests\Services\SaleServiceTest" classname="Tests.Services.SaleServiceTest" assertions="3" time="0.030480"/>
+        <testcase name="testPlaceSaleSuccessfullyCreatesTransaction" file="C:\xampp\htdocs\project\newProject\tests\services\SaleServiceTest.php" line="106" class="Tests\Services\SaleServiceTest" classname="Tests.Services.SaleServiceTest" assertions="3" time="0.012451"/>
+        <testcase name="testCancelSaleRestoresStockCorrectly" file="C:\xampp\htdocs\project\newProject\tests\services\SaleServiceTest.php" line="133" class="Tests\Services\SaleServiceTest" classname="Tests.Services.SaleServiceTest" assertions="2" time="0.053196"/>
+        <testcase name="testCancelSaleThrowsExceptionForNonExistentSale" file="C:\xampp\htdocs\project\newProject\tests\services\SaleServiceTest.php" line="165" class="Tests\Services\SaleServiceTest" classname="Tests.Services.SaleServiceTest" assertions="2" time="0.010817"/>
+        <testcase name="testCancelSaleRollsBackOnFailure" file="C:\xampp\htdocs\project\newProject\tests\services\SaleServiceTest.php" line="174" class="Tests\Services\SaleServiceTest" classname="Tests.Services.SaleServiceTest" assertions="4" time="0.016153"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Model Tests" tests="9" assertions="23" errors="0" failures="0" skipped="0" time="0.063144">
+      <testsuite name="Tests\Models\CategoryTest" file="C:\xampp\htdocs\project\newProject\tests\models\CategoryTest.php" tests="9" assertions="23" errors="0" failures="0" skipped="0" time="0.063144">
+        <testcase name="testCanFulfillOrderReturnsTrueWhenStockSufficient" file="C:\xampp\htdocs\project\newProject\tests\models\CategoryTest.php" line="9" class="Tests\Models\CategoryTest" classname="Tests.Models.CategoryTest" assertions="2" time="0.006839"/>
+        <testcase name="testCanFulfillOrderReturnsFalseWhenStockInsufficient" file="C:\xampp\htdocs\project\newProject\tests\models\CategoryTest.php" line="24" class="Tests\Models\CategoryTest" classname="Tests.Models.CategoryTest" assertions="2" time="0.006015"/>
+        <testcase name="testIsInStockReturnsTrueWhenStockAvailable" file="C:\xampp\htdocs\project\newProject\tests\models\CategoryTest.php" line="39" class="Tests\Models\CategoryTest" classname="Tests.Models.CategoryTest" assertions="1" time="0.006456"/>
+        <testcase name="testIsInStockReturnsFalseWhenNoStock" file="C:\xampp\htdocs\project\newProject\tests\models\CategoryTest.php" line="53" class="Tests\Models\CategoryTest" classname="Tests.Models.CategoryTest" assertions="1" time="0.007798"/>
+        <testcase name="testGetTotalValueCalculatesCorrectly" file="C:\xampp\htdocs\project\newProject\tests\models\CategoryTest.php" line="67" class="Tests\Models\CategoryTest" classname="Tests.Models.CategoryTest" assertions="1" time="0.007432"/>
+        <testcase name="testGetTotalValueReturnsZeroWhenNoStock" file="C:\xampp\htdocs\project\newProject\tests\models\CategoryTest.php" line="81" class="Tests\Models\CategoryTest" classname="Tests.Models.CategoryTest" assertions="1" time="0.005479"/>
+        <testcase name="testFromDatabaseCreatesValidCategory" file="C:\xampp\htdocs\project\newProject\tests\models\CategoryTest.php" line="96" class="Tests\Models\CategoryTest" classname="Tests.Models.CategoryTest" assertions="5" time="0.008068"/>
+        <testcase name="testFromFormDataCreatesValidCategory" file="C:\xampp\htdocs\project\newProject\tests\models\CategoryTest.php" line="114" class="Tests\Models\CategoryTest" classname="Tests.Models.CategoryTest" assertions="5" time="0.007738"/>
+        <testcase name="testGettersReturnCorrectValues" file="C:\xampp\htdocs\project\newProject\tests\models\CategoryTest.php" line="133" class="Tests\Models\CategoryTest" classname="Tests.Models.CategoryTest" assertions="5" time="0.007319"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Utils Tests" tests="9" assertions="3" errors="7" failures="0" skipped="0" time="28.733941">
+      <testsuite name="Tests\Config\DatabaseTest" file="C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php" tests="7" assertions="0" errors="7" failures="0" skipped="0" time="28.667643">
+        <testcase name="testGetInstanceReturnsSameInstance" file="C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php" line="9" class="Tests\Config\DatabaseTest" classname="Tests.Config.DatabaseTest" assertions="0" time="4.075970">
+          <error type="PDOException">Tests\Config\DatabaseTest::testGetInstanceReturnsSameInstance&#13;
+PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+&#13;
+C:\xampp\htdocs\project\newProject\config\Database.php:12
+C:\xampp\htdocs\project\newProject\config\Database.php:26
+C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php:10</error>
+        </testcase>
+        <testcase name="testGetInstanceReturnsValidDatabaseObject" file="C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php" line="16" class="Tests\Config\DatabaseTest" classname="Tests.Config.DatabaseTest" assertions="0" time="4.111232">
+          <error type="PDOException">Tests\Config\DatabaseTest::testGetInstanceReturnsValidDatabaseObject&#13;
+PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+&#13;
+C:\xampp\htdocs\project\newProject\config\Database.php:12
+C:\xampp\htdocs\project\newProject\config\Database.php:26
+C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php:17</error>
+        </testcase>
+        <testcase name="testGetConnectionReturnsPDOInstance" file="C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php" line="22" class="Tests\Config\DatabaseTest" classname="Tests.Config.DatabaseTest" assertions="0" time="4.074812">
+          <error type="PDOException">Tests\Config\DatabaseTest::testGetConnectionReturnsPDOInstance&#13;
+PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+&#13;
+C:\xampp\htdocs\project\newProject\config\Database.php:12
+C:\xampp\htdocs\project\newProject\config\Database.php:26
+C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php:23</error>
+        </testcase>
+        <testcase name="testConnectionHasCorrectAttributes" file="C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php" line="29" class="Tests\Config\DatabaseTest" classname="Tests.Config.DatabaseTest" assertions="0" time="4.121164">
+          <error type="PDOException">Tests\Config\DatabaseTest::testConnectionHasCorrectAttributes&#13;
+PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+&#13;
+C:\xampp\htdocs\project\newProject\config\Database.php:12
+C:\xampp\htdocs\project\newProject\config\Database.php:26
+C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php:30</error>
+        </testcase>
+        <testcase name="testConnectionIsReusable" file="C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php" line="40" class="Tests\Config\DatabaseTest" classname="Tests.Config.DatabaseTest" assertions="0" time="4.083004">
+          <error type="PDOException">Tests\Config\DatabaseTest::testConnectionIsReusable&#13;
+PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+&#13;
+C:\xampp\htdocs\project\newProject\config\Database.php:12
+C:\xampp\htdocs\project\newProject\config\Database.php:26
+C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php:41</error>
+        </testcase>
+        <testcase name="testMultipleGetConnectionCallsReturnSameConnection" file="C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php" line="50" class="Tests\Config\DatabaseTest" classname="Tests.Config.DatabaseTest" assertions="0" time="4.109870">
+          <error type="PDOException">Tests\Config\DatabaseTest::testMultipleGetConnectionCallsReturnSameConnection&#13;
+PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+&#13;
+C:\xampp\htdocs\project\newProject\config\Database.php:12
+C:\xampp\htdocs\project\newProject\config\Database.php:26
+C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php:51</error>
+        </testcase>
+        <testcase name="testCanExecuteSimpleQuery" file="C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php" line="62" class="Tests\Config\DatabaseTest" classname="Tests.Config.DatabaseTest" assertions="0" time="4.091592">
+          <error type="PDOException">Tests\Config\DatabaseTest::testCanExecuteSimpleQuery&#13;
+PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+&#13;
+C:\xampp\htdocs\project\newProject\config\Database.php:12
+C:\xampp\htdocs\project\newProject\config\Database.php:26
+C:\xampp\htdocs\project\newProject\tests\utils\DatabaseTest.php:63</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Utils\RouterTest" file="C:\xampp\htdocs\project\newProject\tests\utils\RouterTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.066298">
+        <testcase name="testDispatchThrowsNotFoundExceptionForUnmatchedRoute" file="C:\xampp\htdocs\project\newProject\tests\utils\RouterTest.php" line="16" class="Tests\Utils\RouterTest" classname="Tests.Utils.RouterTest" assertions="2" time="0.060075"/>
+        <testcase name="testDispatchThrowsNotFoundExceptionForWrongMethod" file="C:\xampp\htdocs\project\newProject\tests\utils\RouterTest.php" line="25" class="Tests\Utils\RouterTest" classname="Tests.Utils.RouterTest" assertions="1" time="0.006223"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

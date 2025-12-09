@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\xampp\htdocs\project\newProject</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=10.1.16" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css?v=10.1.16" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=10.1.16" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">C:\xampp\htdocs\project\newProject</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="controllers/BaseController.php.html#2">BaseController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#2">CategoryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CustomerController.php.html#2">CustomerController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/HomeController.php.html#2">HomeController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/SaleController.php.html#2">SaleController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#2">SaleItem</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Customer.php.html#2">Customer</a></td><td class="text-right">43%</td></tr>
+       <tr><td><a href="models/Sale.php.html#2">Sale</a></td><td class="text-right">45%</td></tr>
+       <tr><td><a href="utils/Router.php.html#3">Router</a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#2">CategoryService</a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="services/CustomerService.php.html#2">CustomerService</a></td><td class="text-right">71%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="controllers/BaseController.php.html#2">BaseController</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#2">CategoryController</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="controllers/SaleController.php.html#2">SaleController</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#2">SaleItem</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="controllers/CustomerController.php.html#2">CustomerController</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#2">CategoryService</a></td><td class="text-right">76</td></tr>
+       <tr><td><a href="services/CustomerService.php.html#2">CustomerService</a></td><td class="text-right">41</td></tr>
+       <tr><td><a href="utils/Router.php.html#3">Router</a></td><td class="text-right">32</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="controllers/BaseController.php.html#4"><abbr title="BaseController::handleSuccessResponse">handleSuccessResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#12"><abbr title="BaseController::handleErrorResponse">handleErrorResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#20"><abbr title="BaseController::isAjaxRequest">isAjaxRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#25"><abbr title="BaseController::validatePostRequest">validatePostRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#33"><abbr title="BaseController::sendJsonSuccess">sendJsonSuccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#48"><abbr title="BaseController::sendJsonError">sendJsonError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#56"><abbr title="BaseController::sendHtmlSuccess">sendHtmlSuccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#61"><abbr title="BaseController::sendHtmlError">sendHtmlError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#66"><abbr title="BaseController::handleError">handleError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#5"><abbr title="CategoryController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#11"><abbr title="CategoryController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#20"><abbr title="CategoryController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#44"><abbr title="CategoryController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#65"><abbr title="CategoryController::addToWarehouse">addToWarehouse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#84"><abbr title="CategoryController::getForSelect">getForSelect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CustomerController.php.html#5"><abbr title="CustomerController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CustomerController.php.html#11"><abbr title="CustomerController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CustomerController.php.html#20"><abbr title="CustomerController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/CustomerController.php.html#43"><abbr title="CustomerController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/HomeController.php.html#4"><abbr title="HomeController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/SaleController.php.html#5"><abbr title="SaleController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/SaleController.php.html#14"><abbr title="SaleController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/SaleController.php.html#26"><abbr title="SaleController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="controllers/SaleController.php.html#65"><abbr title="SaleController::cancel">cancel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Customer.php.html#20"><abbr title="Customer::fromDatabase">fromDatabase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Customer.php.html#38"><abbr title="Customer::getCustomerId">getCustomerId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Customer.php.html#42"><abbr title="Customer::getFirstName">getFirstName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Customer.php.html#46"><abbr title="Customer::getSurname">getSurname</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Customer.php.html#50"><abbr title="Customer::getEmail">getEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Customer.php.html#54"><abbr title="Customer::setFirstName">setFirstName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Customer.php.html#58"><abbr title="Customer::setSurname">setSurname</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Customer.php.html#62"><abbr title="Customer::setEmail">setEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Sale.php.html#21"><abbr title="Sale::fromDatabase">fromDatabase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Sale.php.html#43"><abbr title="Sale::setItems">setItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Sale.php.html#47"><abbr title="Sale::getSaleId">getSaleId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Sale.php.html#51"><abbr title="Sale::getPrice">getPrice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Sale.php.html#55"><abbr title="Sale::getDateSold">getDateSold</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Sale.php.html#59"><abbr title="Sale::getCustomerId">getCustomerId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/Sale.php.html#63"><abbr title="Sale::getItems">getItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#8"><abbr title="SaleItem::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#20"><abbr title="SaleItem::fromDatabase">fromDatabase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#29"><abbr title="SaleItem::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#43"><abbr title="SaleItem::setPricePerUnit">setPricePerUnit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#47"><abbr title="SaleItem::getTotalPrice">getTotalPrice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#54"><abbr title="SaleItem::getSaleId">getSaleId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#58"><abbr title="SaleItem::getCategoryId">getCategoryId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#62"><abbr title="SaleItem::getQuantity">getQuantity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#66"><abbr title="SaleItem::getPricePerUnit">getPricePerUnit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#9"><abbr title="CategoryService::getAllCategories">getAllCategories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#13"><abbr title="CategoryService::getCategoryById">getCategoryById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#107"><abbr title="CategoryService::getCategoriesForSelect">getCategoriesForSelect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="services/CustomerService.php.html#9"><abbr title="CustomerService::getAllCustomers">getAllCustomers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="services/CustomerService.php.html#13"><abbr title="CustomerService::getCustomerByEmail">getCustomerByEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="services/CustomerService.php.html#64"><abbr title="CustomerService::deleteCustomer">deleteCustomer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="utils/Router.php.html#10"><abbr title="Router::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="utils/Router.php.html#66"><abbr title="Router::callController">callController</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#17"><abbr title="CategoryService::addCategory">addCategory</abbr></a></td><td class="text-right">45%</td></tr>
+       <tr><td><a href="utils/Router.php.html#22"><abbr title="Router::dispatch">dispatch</abbr></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#40"><abbr title="CategoryService::updateCategory">updateCategory</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="services/CustomerService.php.html#38"><abbr title="CustomerService::updateCustomer">updateCustomer</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#75"><abbr title="CategoryService::deleteCategory">deleteCategory</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="controllers/SaleController.php.html#26"><abbr title="SaleController::store">store</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#44"><abbr title="CategoryController::update">update</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="controllers/CustomerController.php.html#43"><abbr title="CustomerController::update">update</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="controllers/SaleController.php.html#65"><abbr title="SaleController::cancel">cancel</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="services/CustomerService.php.html#64"><abbr title="CustomerService::deleteCustomer">deleteCustomer</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="utils/Router.php.html#22"><abbr title="Router::dispatch">dispatch</abbr></a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#33"><abbr title="BaseController::sendJsonSuccess">sendJsonSuccess</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#84"><abbr title="CategoryController::getForSelect">getForSelect</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="utils/Router.php.html#66"><abbr title="Router::callController">callController</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="services/CustomerService.php.html#38"><abbr title="CustomerService::updateCustomer">updateCustomer</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#40"><abbr title="CategoryService::updateCategory">updateCategory</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#17"><abbr title="CategoryService::addCategory">addCategory</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#4"><abbr title="BaseController::handleSuccessResponse">handleSuccessResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#12"><abbr title="BaseController::handleErrorResponse">handleErrorResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#20"><abbr title="BaseController::isAjaxRequest">isAjaxRequest</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/BaseController.php.html#25"><abbr title="BaseController::validatePostRequest">validatePostRequest</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#11"><abbr title="CategoryController::index">index</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#20"><abbr title="CategoryController::store">store</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/CategoryController.php.html#65"><abbr title="CategoryController::addToWarehouse">addToWarehouse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/CustomerController.php.html#11"><abbr title="CustomerController::index">index</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/CustomerController.php.html#20"><abbr title="CustomerController::store">store</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="controllers/SaleController.php.html#14"><abbr title="SaleController::index">index</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#20"><abbr title="SaleItem::fromDatabase">fromDatabase</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="models/SaleItem.php.html#47"><abbr title="SaleItem::getTotalPrice">getTotalPrice</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#107"><abbr title="CategoryService::getCategoriesForSelect">getCategoriesForSelect</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="services/CategoryService.php.html#75"><abbr title="CategoryService::deleteCategory">deleteCategory</abbr></a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.16</a> using <a href="https://www.php.net/" target="_top">PHP 8.2.12</a> and <a href="https://phpunit.de/">PHPUnit 10.5.58</a> at Thu Nov 27 12:39:11 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js?v=10.1.16" type="text/javascript"></script>
+  <script src="_js/d3.min.js?v=10.1.16" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js?v=10.1.16" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([6,0,0,0,0,2,0,2,1,0,0,6], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([56,0,0,0,0,1,0,1,1,2,1,32], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,15,"<a href=\"controllers\/BaseController.php.html#2\">BaseController<\/a>"],[0,14,"<a href=\"controllers\/CategoryController.php.html#2\">CategoryController<\/a>"],[0,9,"<a href=\"controllers\/CustomerController.php.html#2\">CustomerController<\/a>"],[0,1,"<a href=\"controllers\/HomeController.php.html#2\">HomeController<\/a>"],[0,12,"<a href=\"controllers\/SaleController.php.html#2\">SaleController<\/a>"],[100,11,"<a href=\"models\/Category.php.html#2\">Category<\/a>"],[43.47826086956522,10,"<a href=\"models\/Customer.php.html#2\">Customer<\/a>"],[45.45454545454545,9,"<a href=\"models\/Sale.php.html#2\">Sale<\/a>"],[0,11,"<a href=\"models\/SaleItem.php.html#2\">SaleItem<\/a>"],[64.7887323943662,32,"<a href=\"services\/CategoryService.php.html#2\">CategoryService<\/a>"],[71.42857142857143,26,"<a href=\"services\/CustomerService.php.html#2\">CustomerService<\/a>"],[100,15,"<a href=\"services\/SaleService.php.html#2\">SaleService<\/a>"],[100,1,"<a href=\"utils\/Exceptions.php.html#3\">NotFoundException<\/a>"],[100,1,"<a href=\"utils\/Exceptions.php.html#9\">ValidationException<\/a>"],[100,1,"<a href=\"utils\/Exceptions.php.html#15\">DuplicateKeyException<\/a>"],[100,1,"<a href=\"utils\/Exceptions.php.html#21\">InsufficientStockException<\/a>"],[60,16,"<a href=\"utils\/Router.php.html#3\">Router<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"controllers\/BaseController.php.html#4\">BaseController::handleSuccessResponse<\/a>"],[0,2,"<a href=\"controllers\/BaseController.php.html#12\">BaseController::handleErrorResponse<\/a>"],[0,2,"<a href=\"controllers\/BaseController.php.html#20\">BaseController::isAjaxRequest<\/a>"],[0,2,"<a href=\"controllers\/BaseController.php.html#25\">BaseController::validatePostRequest<\/a>"],[0,3,"<a href=\"controllers\/BaseController.php.html#33\">BaseController::sendJsonSuccess<\/a>"],[0,1,"<a href=\"controllers\/BaseController.php.html#48\">BaseController::sendJsonError<\/a>"],[0,1,"<a href=\"controllers\/BaseController.php.html#56\">BaseController::sendHtmlSuccess<\/a>"],[0,1,"<a href=\"controllers\/BaseController.php.html#61\">BaseController::sendHtmlError<\/a>"],[0,1,"<a href=\"controllers\/BaseController.php.html#66\">BaseController::handleError<\/a>"],[0,1,"<a href=\"controllers\/CategoryController.php.html#5\">CategoryController::__construct<\/a>"],[0,2,"<a href=\"controllers\/CategoryController.php.html#11\">CategoryController::index<\/a>"],[0,2,"<a href=\"controllers\/CategoryController.php.html#20\">CategoryController::store<\/a>"],[0,4,"<a href=\"controllers\/CategoryController.php.html#44\">CategoryController::update<\/a>"],[0,2,"<a href=\"controllers\/CategoryController.php.html#65\">CategoryController::addToWarehouse<\/a>"],[0,3,"<a href=\"controllers\/CategoryController.php.html#84\">CategoryController::getForSelect<\/a>"],[0,1,"<a href=\"controllers\/CustomerController.php.html#5\">CustomerController::__construct<\/a>"],[0,2,"<a href=\"controllers\/CustomerController.php.html#11\">CustomerController::index<\/a>"],[0,2,"<a href=\"controllers\/CustomerController.php.html#20\">CustomerController::store<\/a>"],[0,4,"<a href=\"controllers\/CustomerController.php.html#43\">CustomerController::update<\/a>"],[0,1,"<a href=\"controllers\/HomeController.php.html#4\">HomeController::index<\/a>"],[0,1,"<a href=\"controllers\/SaleController.php.html#5\">SaleController::__construct<\/a>"],[0,2,"<a href=\"controllers\/SaleController.php.html#14\">SaleController::index<\/a>"],[0,5,"<a href=\"controllers\/SaleController.php.html#26\">SaleController::store<\/a>"],[0,4,"<a href=\"controllers\/SaleController.php.html#65\">SaleController::cancel<\/a>"],[100,1,"<a href=\"models\/Category.php.html#9\">Category::__construct<\/a>"],[100,1,"<a href=\"models\/Category.php.html#23\">Category::fromDatabase<\/a>"],[100,1,"<a href=\"models\/Category.php.html#33\">Category::fromFormData<\/a>"],[100,1,"<a href=\"models\/Category.php.html#43\">Category::getTotalValue<\/a>"],[100,1,"<a href=\"models\/Category.php.html#47\">Category::isInStock<\/a>"],[100,1,"<a href=\"models\/Category.php.html#51\">Category::canFulfillOrder<\/a>"],[100,1,"<a href=\"models\/Category.php.html#55\">Category::getCategoryId<\/a>"],[100,1,"<a href=\"models\/Category.php.html#56\">Category::getName<\/a>"],[100,1,"<a href=\"models\/Category.php.html#57\">Category::getDescription<\/a>"],[100,1,"<a href=\"models\/Category.php.html#58\">Category::getNumberOf<\/a>"],[100,1,"<a href=\"models\/Category.php.html#59\">Category::getPricePer<\/a>"],[100,1,"<a href=\"models\/Customer.php.html#8\">Customer::__construct<\/a>"],[0,1,"<a href=\"models\/Customer.php.html#20\">Customer::fromDatabase<\/a>"],[100,1,"<a href=\"models\/Customer.php.html#29\">Customer::fromFormData<\/a>"],[0,1,"<a href=\"models\/Customer.php.html#38\">Customer::getCustomerId<\/a>"],[0,1,"<a href=\"models\/Customer.php.html#42\">Customer::getFirstName<\/a>"],[0,1,"<a href=\"models\/Customer.php.html#46\">Customer::getSurname<\/a>"],[0,1,"<a href=\"models\/Customer.php.html#50\">Customer::getEmail<\/a>"],[0,1,"<a href=\"models\/Customer.php.html#54\">Customer::setFirstName<\/a>"],[0,1,"<a href=\"models\/Customer.php.html#58\">Customer::setSurname<\/a>"],[0,1,"<a href=\"models\/Customer.php.html#62\">Customer::setEmail<\/a>"],[100,1,"<a href=\"models\/Sale.php.html#9\">Sale::__construct<\/a>"],[0,1,"<a href=\"models\/Sale.php.html#21\">Sale::fromDatabase<\/a>"],[100,1,"<a href=\"models\/Sale.php.html#30\">Sale::create<\/a>"],[0,1,"<a href=\"models\/Sale.php.html#43\">Sale::setItems<\/a>"],[0,1,"<a href=\"models\/Sale.php.html#47\">Sale::getSaleId<\/a>"],[0,1,"<a href=\"models\/Sale.php.html#51\">Sale::getPrice<\/a>"],[0,1,"<a href=\"models\/Sale.php.html#55\">Sale::getDateSold<\/a>"],[0,1,"<a href=\"models\/Sale.php.html#59\">Sale::getCustomerId<\/a>"],[0,1,"<a href=\"models\/Sale.php.html#63\">Sale::getItems<\/a>"],[0,1,"<a href=\"models\/SaleItem.php.html#8\">SaleItem::__construct<\/a>"],[0,2,"<a href=\"models\/SaleItem.php.html#20\">SaleItem::fromDatabase<\/a>"],[0,1,"<a href=\"models\/SaleItem.php.html#29\">SaleItem::create<\/a>"],[0,1,"<a href=\"models\/SaleItem.php.html#43\">SaleItem::setPricePerUnit<\/a>"],[0,2,"<a href=\"models\/SaleItem.php.html#47\">SaleItem::getTotalPrice<\/a>"],[0,1,"<a href=\"models\/SaleItem.php.html#54\">SaleItem::getSaleId<\/a>"],[0,1,"<a href=\"models\/SaleItem.php.html#58\">SaleItem::getCategoryId<\/a>"],[0,1,"<a href=\"models\/SaleItem.php.html#62\">SaleItem::getQuantity<\/a>"],[0,1,"<a href=\"models\/SaleItem.php.html#66\">SaleItem::getPricePerUnit<\/a>"],[100,1,"<a href=\"services\/CategoryService.php.html#5\">CategoryService::__construct<\/a>"],[0,1,"<a href=\"services\/CategoryService.php.html#9\">CategoryService::getAllCategories<\/a>"],[0,1,"<a href=\"services\/CategoryService.php.html#13\">CategoryService::getCategoryById<\/a>"],[45.45454545454545,4,"<a href=\"services\/CategoryService.php.html#17\">CategoryService::addCategory<\/a>"],[72.22222222222221,7,"<a href=\"services\/CategoryService.php.html#40\">CategoryService::updateCategory<\/a>"],[87.5,4,"<a href=\"services\/CategoryService.php.html#75\">CategoryService::deleteCategory<\/a>"],[100,3,"<a href=\"services\/CategoryService.php.html#92\">CategoryService::addToWarehouse<\/a>"],[0,2,"<a href=\"services\/CategoryService.php.html#107\">CategoryService::getCategoriesForSelect<\/a>"],[92.85714285714286,9,"<a href=\"services\/CategoryService.php.html#123\">CategoryService::validateCategoryData<\/a>"],[100,1,"<a href=\"services\/CustomerService.php.html#5\">CustomerService::__construct<\/a>"],[0,1,"<a href=\"services\/CustomerService.php.html#9\">CustomerService::getAllCustomers<\/a>"],[0,1,"<a href=\"services\/CustomerService.php.html#13\">CustomerService::getCustomerByEmail<\/a>"],[100,6,"<a href=\"services\/CustomerService.php.html#17\">CustomerService::addCustomer<\/a>"],[83.33333333333334,8,"<a href=\"services\/CustomerService.php.html#38\">CustomerService::updateCustomer<\/a>"],[0,4,"<a href=\"services\/CustomerService.php.html#64\">CustomerService::deleteCustomer<\/a>"],[100,5,"<a href=\"services\/CustomerService.php.html#81\">CustomerService::validateCustomerData<\/a>"],[100,1,"<a href=\"services\/SaleService.php.html#7\">SaleService::__construct<\/a>"],[100,4,"<a href=\"services\/SaleService.php.html#17\">SaleService::placeSale<\/a>"],[100,4,"<a href=\"services\/SaleService.php.html#66\">SaleService::cancelSale<\/a>"],[100,4,"<a href=\"services\/SaleService.php.html#95\">SaleService::validateStock<\/a>"],[100,2,"<a href=\"services\/SaleService.php.html#113\">SaleService::calculateTotalPrice<\/a>"],[100,1,"<a href=\"utils\/Exceptions.php.html#4\">NotFoundException::__construct<\/a>"],[100,1,"<a href=\"utils\/Exceptions.php.html#10\">ValidationException::__construct<\/a>"],[100,1,"<a href=\"utils\/Exceptions.php.html#16\">DuplicateKeyException::__construct<\/a>"],[100,1,"<a href=\"utils\/Exceptions.php.html#22\">InsufficientStockException::__construct<\/a>"],[100,1,"<a href=\"utils\/Router.php.html#6\">Router::get<\/a>"],[0,1,"<a href=\"utils\/Router.php.html#10\">Router::post<\/a>"],[100,1,"<a href=\"utils\/Router.php.html#14\">Router::addRoute<\/a>"],[63.1578947368421,9,"<a href=\"utils\/Router.php.html#22\">Router::dispatch<\/a>"],[100,1,"<a href=\"utils\/Router.php.html#60\">Router::convertPathToRegex<\/a>"],[0,3,"<a href=\"utils\/Router.php.html#66\">Router::callController<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

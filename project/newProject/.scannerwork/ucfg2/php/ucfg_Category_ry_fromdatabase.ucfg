@@ -1,0 +1,114 @@
+
+category::fromdatabase@
+6C:\xampp\htdocs\project\newProject\models\Category.php ('"1*Ä
+1 (
+G
+E
+ ('
+$row"__id*+
+
+__unknown_file (
+
+$rowarrayn
+l
+ (
+%2"__mapGet*$
+
+__unknown_file (
+
+$row**
+
+__unknown_file (
+
+CategoryIDh
+f
+ (
+%3"__mapGet*$
+
+__unknown_file (
+
+$row*$
+
+__unknown_file (
+Nameo
+m
+ (
+%4"__mapGet*$
+
+__unknown_file (
+
+$row*+
+
+__unknown_file (
+Descriptionm
+k
+ ("
+%5"__mapGet*$
+
+__unknown_file (
+
+$row*)
+
+__unknown_file (
+	Number_OfI
+G
+ ("
+%6"__sanitizing_cast*"
+
+__unknown_file (
+
+%5m
+k
+ ($
+%7"__mapGet*$
+
+__unknown_file (
+
+$row*)
+
+__unknown_file (
+	Price_PerI
+G
+ ($
+%8"__sanitizing_cast*"
+
+__unknown_file (
+
+%7
+ (	
+%1"selfþ
+û
+ (	
+%9"self::__construct*"
+
+__unknown_file (
+
+%1*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*"
+
+__unknown_file (
+
+%4*"
+
+__unknown_file (
+
+%6*"
+
+__unknown_file (
+
+%8"
+ (
+
+
+%1:
+( (2
+$rowarrayB
+
+categoryH

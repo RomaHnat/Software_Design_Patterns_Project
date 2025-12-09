@@ -1,0 +1,49 @@
+
+router::get=
+3C:\xampp\htdocs\project\newProject\utils\Router.php ("1*2
+2
+
+Router.php"
+ (
+implicit return*î
+1 (0J
+H
+ (
+$path"__id*-
+
+__unknown_file (
+
+$pathstringP
+N
+ (
+
+$handler"__id*0
+
+__unknown_file (
+
+$handlerstring»¸
+ (/
+%1*&
+
+__unknown_file (
+
+router*#
+
+__unknown_file (
+GET*%
+
+__unknown_file (	
+
+$path*(
+
+__unknown_file (
+
+
+$handler2addroute*
+2:
+ ($
+$pathstring:
+& (5
+$handlerstringB
+
+routerH

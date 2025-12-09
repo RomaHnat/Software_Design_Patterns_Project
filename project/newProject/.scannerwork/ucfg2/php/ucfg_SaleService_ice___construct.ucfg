@@ -1,0 +1,64 @@
+
+saleservice::__constructE
+;C:\xampp\htdocs\project\newProject\services\SaleService.php ("1*7
+2
+SaleService.php"
+ (
+implicit return*â
+1 ($Z
+X
+ (
+	$saleRepo"__id*9
+
+__unknown_file (
+
+	$saleReposalerepositoryf
+d
+ (
+$categoryRepo"__id*A
+
+__unknown_file (%
+#
+$categoryRepocategoryrepositoryf
+d
+ (
+$customerRepo"__id*A
+
+__unknown_file (%
+#
+$customerRepocustomerrepositoryZ
+X
+ (#
+saleservice"
+
+saleRepo"__id*)
+
+__unknown_file (
+
+	$saleRepob
+`
+ (+
+saleservice"
+categoryRepo"__id*-
+
+__unknown_file (
+
+$categoryRepob
+`
+ (+
+saleservice"
+customerRepo"__id*-
+
+__unknown_file (
+
+$customerRepo*
+2:'
+ ( 
+	$saleReposalerepository:/
+	 	((#
+$categoryRepocategoryrepository:/
+
+ 
+((#
+$customerRepocustomerrepositoryB
+saleserviceH

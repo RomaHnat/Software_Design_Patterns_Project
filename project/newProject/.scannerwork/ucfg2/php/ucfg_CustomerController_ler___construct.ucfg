@@ -1,0 +1,64 @@
+
+customercontroller::__constructO
+EC:\xampp\htdocs\project\newProject\controllers\CustomerController.php ("1*>
+2
+CustomerController.php"
+	 	(
+implicit return*∫
+1 (7S
+Q
+ (%
+%1"database::getinstance*(
+
+__unknown_file ("
+
+databaseEC
+ (6
+%2*"
+
+__unknown_file (
+
+%12getconnection=
+;
+ (6
+$db"__id*"
+
+__unknown_file (
+
+%21/
+ (3
+$customerRepo"customerrepositoryà
+Ö
+ (3
+%3"customerrepository::__construct*-
+
+__unknown_file (
+
+$customerRepo*#
+
+__unknown_file (
+
+$db#!
+! (C
+%4"customerserviceÑ
+Å
+! (C
+%5"customerservice::__construct*"
+
+__unknown_file (
+
+%4*-
+
+__unknown_file (
+
+$customerRepoa
+_
+ (C)
+customercontroller"
+customerService"__id*"
+
+__unknown_file (
+
+%4*
+2B
+customercontrollerH

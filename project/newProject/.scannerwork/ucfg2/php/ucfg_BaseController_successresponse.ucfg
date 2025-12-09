@@ -1,0 +1,68 @@
+
+%basecontroller::handlesuccessresponseK
+AC:\xampp\htdocs\project\newProject\controllers\BaseController.php (,"1*Á
+2 (;¬©
+ (:
+%2*.
+
+__unknown_file (
+basecontroller*%
+
+__unknown_file (	
+
+$data*/
+
+__unknown_file (
+
+$successMessage2sendjsonsuccess*
+4*Å
+3 (?°­
+ (>
+%3*.
+
+__unknown_file (
+basecontroller*/
+
+__unknown_file (
+
+$successMessage*)
+
+__unknown_file (
+
+	$viewPath2sendhtmlsuccess*
+4*:
+4
+BaseController.php"
+
+ 
+(
+implicit return*œ
+1 ("^
+\
+ (,
+$successMessage"__id*7
+
+__unknown_file (
+
+$successMessagestringR
+P
+ (,
+	$viewPath"__id*1
+
+__unknown_file (
+
+	$viewPathstringQO
+ ("
+%1*.
+
+__unknown_file (
+basecontroller2isajaxrequest*
+2
+3:
+- (2
+$data:%
+4 (J
+$successMessagestring:
+L (\
+	$viewPathstringB
+basecontrollerH

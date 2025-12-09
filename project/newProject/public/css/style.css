@@ -1,0 +1,249 @@
+*{margin:0;
+    padding:0;}
+    
+  body {
+    font-family: "Montserrat", sans-serif;
+  }  
+  
+    
+  .stick{
+    width:100%;
+     position:fixed;
+     top:0;
+     left:0;
+     z-index:1000;
+                 }
+
+.decortoppage{position:relative;}
+
+.verh{
+ background: url("images/backgroundIndex.png") center / cover no-repeat fixed;
+ height:95vh;
+ max-height:95vh;
+                 }
+
+
+.homepageheader{text-align:center;
+                   position:sticky;
+                   top:30%;
+                   left:25%;
+                   width:50%;
+                   }
+                   
+.homepageheader h1{color:#FFFFFF;
+                   font-size:10em;
+                   background-color:#000000;
+                   opacity:0.6;
+                   border-top-left-radius: 0.7em;
+                   border-bottom-right-radius: 0.7em;
+                   border-bottom-left-radius: 0.1em;
+                   border-top-right-radius: 0.1em;
+                   padding:2%;}
+
+  nav{background-color:#000000;
+          color:#FFFFFF;        
+          padding-top:1.5%;
+          padding-bottom:1.5%;     
+          padding-left:2.5%;        
+          text-align:center;
+          font-size:1.5em;
+          border-bottom-left-radius: 0.5em;
+          border-bottom-right-radius: 0.5em;
+          border-top:none;
+          }
+          
+  nav a{color:#FFFFFF;
+    padding-top:0.2%;
+    padding-bottom:0.2%;
+    padding-left:1%;
+    padding-right:1%;
+    text-decoration:none;
+    height:20em;
+    }
+  
+  nav a:hover{color:#000000;
+          transition:0.15s;
+          background-color:#FFFFFF;
+          border: 0.2em solid #FFFFFF;
+          border-radius:1em;}
+          
+  footer{
+            width:100%;
+            max-width:100%;
+            overflow-x:hidden;
+            background:#000000;
+            padding:1em 0em;
+            font-family: 'Play', sans-serif;
+            text-align:center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+    }
+  footer .row{
+                  width:100%;
+                  margin:1% 0%;
+                  padding:0.6% 0%;
+                  color:#FFFFFF;
+                  font-size:0.8em;
+    }
+    
+  footer .row a{
+                  text-decoration:none;
+                  color:#FFFFFF;
+                  transition:0.5s;
+                    }
+    
+  footer .row a:hover{
+                        color: #ccc;
+                        }
+    
+  footer .row ul{
+                    width:100%;
+                    }
+    
+  footer .row ul li{
+                      display:inline-block;
+                      margin:0px 30px;
+                      }
+
+  .undernav{
+    text-align: center;
+    margin-top: 4%;
+    background-color: #cac0c0;
+    padding:2%;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+  }
+
+  .undernav input{
+
+    padding: 0.5%;
+    font-size: 1em;
+    background: transparent;
+    border-radius: 1em;
+  }
+
+
+  .undernav input:hover{
+
+    background-color: #a39c9c;
+
+  }
+
+  .headerform{
+
+    font-size: 2em;
+    text-align: center;
+
+  }
+
+  .allforms{
+
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+  }
+
+  .allforms fieldset{
+
+    border-radius: 1em;
+
+  }
+
+  .allforms label{
+
+    padding:2%;
+    font-size: 1.5em;
+    margin-left: 20%;
+
+  }
+
+  .allforms input[type=text]{
+
+    font-size: 1.5em;
+    margin: 1%;
+    
+  }
+
+  .allforms input[type=submit]{
+
+    font-size: 1.2em;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 0.5em;
+
+  }
+
+  
+  .allforms input[type=button]{
+
+    font-size: 1.2em;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 0.5em;
+
+  }
+
+  .placeholder{
+
+    font-size: 5em;
+    text-align: center;
+    margin-top: 9%;
+
+  }
+
+  .justgrid{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7em;
+
+  }
+
+  .griditem {
+
+    padding: 2em;
+    text-align: center;
+
+}
+ 
+.gridbutton {
+
+  grid-column: span 2;
+  text-align: center;
+
+}
+
+.tablewithdata {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.tablewithdata th, td {
+  border: 0.1em solid #ddd;
+  padding: 0.5em;
+  text-align: left;
+}
+
+.tablewithdata th {
+  background-color: #cac0c0;
+}
+
+.headerfortable{
+
+  text-align: center;
+  margin-top: 3%;
+
+}
+
+#selectcat {font-size: 1.5em;}
+
+#cart {
+
+  width: 20em;
+  height: 10em;
+  font-size: 1.5em;
+
+}

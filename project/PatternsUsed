@@ -1,0 +1,12 @@
+Architectural:
+    MVC
+    Repository
+    Service Layer
+    Front Controller
+Creational:
+    Singleton
+    Factory Method
+Structural:
+    Decorator
+Behavioural:
+    Template Method

@@ -1,0 +1,107 @@
+
+sale::fromdatabase<
+2C:\xampp\htdocs\project\newProject\models\Sale.php ('"1*ø
+1 (
+G
+E
+ ('
+$row"__id*+
+
+__unknown_file (
+
+$rowarrayj
+h
+ (
+%2"__mapGet*$
+
+__unknown_file (
+
+$row*&
+
+__unknown_file (
+
+SaleIDI
+G
+ (
+%3"__sanitizing_cast*"
+
+__unknown_file (
+
+%2i
+g
+ ( 
+%4"__mapGet*$
+
+__unknown_file (
+
+$row*%
+
+__unknown_file (	
+PriceI
+G
+ ( 
+%5"__sanitizing_cast*"
+
+__unknown_file (
+
+%4m
+k
+ (
+%6"__mapGet*$
+
+__unknown_file (
+
+$row*)
+
+__unknown_file (
+	Date_Soldn
+l
+ (#
+%7"__mapGet*$
+
+__unknown_file (
+
+$row**
+
+__unknown_file (
+
+CustomerIDI
+G
+ (#
+%8"__sanitizing_cast*"
+
+__unknown_file (
+
+%7
+ (	
+%1"selfÚ
+×
+ (	
+%9"self::__construct*"
+
+__unknown_file (
+
+%1*"
+
+__unknown_file (
+
+%3*"
+
+__unknown_file (
+
+%5*"
+
+__unknown_file (
+
+%6*"
+
+__unknown_file (
+
+%8"
+ (
+
+
+%1:
+( (2
+$rowarrayB
+saleH
